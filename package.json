@@ -5,18 +5,40 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
+    "tauri": "tauri",
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroicons/react": "^2.0.17",
+    "@react-spring/three": "^9.7.1",
+    "@react-three/drei": "^9.62.4",
+    "@react-three/fiber": "^8.12.0",
     "@types/node": "18.15.11",
     "@types/react": "18.0.32",
     "@types/react-dom": "18.0.11",
+    "camera-controls": "^2.3.4",
+    "classnames": "^2.3.2",
     "eslint": "8.37.0",
     "eslint-config-next": "13.2.4",
     "next": "13.2.4",
     "react": "18.2.0",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
     "react-dom": "18.2.0",
+    "three": "^0.151.3",
+    "three-stdlib": "^2.21.8",
     "typescript": "5.0.3"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "^13.2.4",
+    "@tauri-apps/cli": "^1.2.3",
+    "@types/three": "^0.150.1",
+    "autoprefixer": "^10.4.14",
+    "file-loader": "^6.2.0",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.1",
+    "url-loader": "^4.1.1"
   }
 }
